@@ -14,7 +14,7 @@ void perform_test() {
 	for(int i = 0; i < m; i++) {
 		cin >> b[i];
 	}
-	// find the highest prefix sum in red an blue
+	// find the highest prefix sum in red and blue
 	// and add them together for the final answer
 	partial_sum(r.begin(), r.end(), r.begin());
 	partial_sum(b.begin(), b.end(), b.begin());
